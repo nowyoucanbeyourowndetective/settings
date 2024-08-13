@@ -1,0 +1,31 @@
+[
+    {
+      "key": "ctrl+p",
+      "command": "workbench.action.quickOpen",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "shift+alt+l",
+      "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+      "key": "ctrl+w h",
+      "command": "workbench.action.focusLeftGroup",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "ctrl+w j",
+      "command": "workbench.action.focusBelowGroup",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "ctrl+w k",
+      "command": "workbench.action.focusAboveGroup",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "ctrl+w l",
+      "command": "workbench.action.focusRightGroup",
+      "when": "editorTextFocus"
+    }
+  ]

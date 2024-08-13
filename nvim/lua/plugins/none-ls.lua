@@ -8,13 +8,12 @@ return {
 
     null_ls.setup({
       sources = {
-        require("none-ls.diagnostics.eslint_d"),
-         null_ls.builtins.diagnostics.eslint_d.with({
-            command = "eslint_d",  -- Ensure eslint_d is correctly referenced
-        }),
+        --require("none-ls.diagnostics.eslint_d"),
+        -- null_ls.builtins.diagnostics.eslint_d.with({
+        --    command = "eslint_d",  -- Ensure eslint_d is correctly referenced
+        --}),
         null_ls.builtins.formatting.stylua,
         null_ls.builtins.formatting.prettier,
-        --null_ls.builtins.diagnostics.eslint_d,
         null_ls.builtins.diagnostics.eslint_d,
         null_ls.builtins.completion.spell,
       },
