@@ -6,3 +6,5 @@ set cursorline
 set hlsearch
 set incsearch
 set nocompatible
+
+inoremap jk <Esc>
